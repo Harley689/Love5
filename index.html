@@ -236,7 +236,7 @@ const loginPage=document.getElementById("loginPage");
 const mainPage=document.getElementById("mainPage");
 const passwordInput=document.getElementById("passwordInput");
 const loginBtn=document.getElementById("loginBtn");
-const correctPassword="Binty💕";
+const correctPassword="Binty";
 loginBtn.addEventListener("click",()=>{if(passwordInput.value.trim()===correctPassword){loginPage.style.display="none"; mainPage.style.display="block";}else{alert("كلمة السر غلط 😢 حاول تاني");}});
 passwordInput.addEventListener("keydown",e=>{if(e.key==="Enter"){if(passwordInput.value.trim()===correctPassword){loginPage.style.display="none"; mainPage.style.display="block";}else{alert("كلمة السر غلط 😢 حاول تاني");}}});
 
